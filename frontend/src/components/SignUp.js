@@ -6,8 +6,8 @@ import './SignUp.css'
 const SignUp = () => {
     // managing the input values given
     const [username, setUsername] = useState('');//username
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+    const [email, setEmail] = useState('');//email
+    const [password, setPassword] = useState('');//password
     const qrCode = "";
     const profile = { title: "", slogan: "",product: "", image: "", description: "", feature1: "", feature2: "", feature3: "", contact1: "", contact2: ""};
     const freelance = { name: "", branding1: "", branding2: "", aboutMe: "", skill1: "", skill2: "", skill3: "", service1: "", service2: "", service3: "", projectName1: "", projectDescription1: "", projectLink1: "", projectName2: "", projectDescription2: "", projectLink2: "", contact1: "", contact2: "" };
