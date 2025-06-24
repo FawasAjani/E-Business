@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/esm/Button';
 
 const Login = () => {
 
-  // managing the input values given
+ // State hooks to manage form input values
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate(); 
