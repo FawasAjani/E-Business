@@ -6,6 +6,7 @@ const Footer = () => {
 return (
   <div className="footer">
     <ul class="menu">
+       {/* Link to the home page */}
       <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
     </ul>
        {/* Copyright notice */}
