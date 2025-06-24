@@ -1,0 +1,58 @@
+.qrcode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.download {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #8B6FE9;
+    border: none;
+    max-width: 250px;
+    width: 100%;
+    color: white;
+
+}
+
+.copy {
+    padding: 10px;
+    border-radius: 5px;
+    /* 89CFF0 */
+    background-color: #8B6FE9;
+    border: none;
+    max-width: 150px;
+    width: 100%;
+    color: white;
+
+
+}
+
+.download:hover {
+    background-color: #838CDF;
+}
+
+.copy:hover {
+    background-color: #838CDF;
+}
