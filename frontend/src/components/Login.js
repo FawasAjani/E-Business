@@ -60,7 +60,7 @@ const Login = () => {
                         required // making the field required so that the use cannot coniune without filling the field in
                         className='input-box'
                     /><br/><br/>
-                    
+                    {/* Prompt to navigate to the signup page if the user doesn't have an account */}
                     <button type="submit" className='custom-button'>Log in</button>
                 </form>
                 <br />
