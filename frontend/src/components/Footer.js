@@ -8,6 +8,7 @@ return (
     <ul class="menu">
       <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
     </ul>
+       {/* Copyright notice */}
       <p>&copy;2025 E-Business-Card | All Rights Reserved</p>
   </div>
   );
