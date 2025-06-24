@@ -18,7 +18,7 @@ function QrCodeGenerator({ type, id }) {
     }
 
     htmlToImage
-      .toPng(qrNode) // ✅ Only convert the SVG node, not the whole wrapper
+      .toPng(qrNode) //  Only convert the SVG node, not the whole wrapper
       .then((dataUrl) => {
         const link = document.createElement('a');
         link.href = dataUrl;
