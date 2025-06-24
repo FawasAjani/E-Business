@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 
 const Navigation = () => {
-  // uses browser history to navigate to the previous page 
+   // Function to navigate back to the previous page using the browser's history
   const goBack = () => {
     window.history.back(); 
   };
