@@ -7,9 +7,9 @@ function QrCodeGenerator({ type, id }) {
   const baseUrl = window.location.origin;
   const url = `${baseUrl}/${type}/portfolio/${id}`;
   const qrCodeRef = useRef(null);// Ref to access the QR code DOM node
-
+  // Function to download the QR code as a PNG image
   const downloadQRCode = () => {
-    const qrNode = qrCodeRef.current?.querySelector('svg'); // ✅ Only export the SVG
+    const qrNode = qrCodeRef.current?.querySelector('svg'); //  Only export the SVG
 
     if (!qrNode) {
       console.error('QR Code SVG not found.');
