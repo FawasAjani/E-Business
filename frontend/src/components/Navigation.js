@@ -10,7 +10,7 @@ const Navigation = () => {
   };
 
   return (
-        // the theme of the naviagtion bar 
+         // Bootstrap Navbar with a dark background and theme
         <Navbar bg="dark" data-bs-theme="dark">
           <Container>
             {/* clicking virtual card text brings you to the loading screen of the app */}
