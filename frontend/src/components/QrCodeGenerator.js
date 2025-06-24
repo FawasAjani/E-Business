@@ -9,6 +9,7 @@ function QrCodeGenerator({ type, id }) {
   const qrCodeRef = useRef(null);// Ref to access the QR code DOM node
   // Function to download the QR code as a PNG image
   const downloadQRCode = () => {
+     // Access only the <svg> inside the QR code wrapper
     const qrNode = qrCodeRef.current?.querySelector('svg'); //  Only export the SVG
 
     if (!qrNode) {
