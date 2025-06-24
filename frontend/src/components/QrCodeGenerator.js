@@ -46,6 +46,7 @@ function QrCodeGenerator({ type, id }) {
         <h1>Portfolio QR Code</h1>
       </div>
       <hr />
+       {/* QRCode component renders a QR code using the given URL */}
       <div className="qr-code" ref={qrCodeRef}>
         <QRCode value={url} size={300} />
       </div>
