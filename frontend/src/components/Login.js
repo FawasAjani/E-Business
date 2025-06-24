@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios'; // imported to handle api calls
 import { useNavigate } from 'react-router-dom'; // imported to navigate between routes
-import './Login.css'
+import './Login.css' // Importing styles specific to the login component
 import Button from 'react-bootstrap/esm/Button';
 
 const Login = () => {
