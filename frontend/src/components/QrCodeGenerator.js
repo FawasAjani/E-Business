@@ -49,7 +49,7 @@ function QrCodeGenerator({ type, id }) {
       <div className="qr-code" ref={qrCodeRef}>
         <QRCode value={url} size={300} />
       </div>
-      
+       {/* Download QR Code button */}
       <div className='qr-button'>
         <button onClick={downloadQRCode} className='download'>Download QR Code</button>
       </div>
