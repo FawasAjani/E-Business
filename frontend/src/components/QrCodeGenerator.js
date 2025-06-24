@@ -6,7 +6,7 @@ import './QrCodeGenerator.css';// Custom CSS for styling the QR code UI
 function QrCodeGenerator({ type, id }) {
   const baseUrl = window.location.origin;
   const url = `${baseUrl}/${type}/portfolio/${id}`;
-  const qrCodeRef = useRef(null);
+  const qrCodeRef = useRef(null);// Ref to access the QR code DOM node
 
   const downloadQRCode = () => {
     const qrNode = qrCodeRef.current?.querySelector('svg'); // ✅ Only export the SVG
