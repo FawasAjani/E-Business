@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import QRCode from 'react-qr-code'; // Library for rendering QR codes
 import * as htmlToImage from 'html-to-image';// Utility to convert DOM nodes into images
 import './QrCodeGenerator.css';// Custom CSS for styling the QR code UI
-
+// QrCodeGenerator component receives `type` and `id`
 function QrCodeGenerator({ type, id }) {
   const baseUrl = window.location.origin;
   const url = `${baseUrl}/${type}/portfolio/${id}`;
