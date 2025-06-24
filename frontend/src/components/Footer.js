@@ -1,7 +1,7 @@
 import React from 'react';
 // Importing the CSS file 
 import './Footer.css';  
-
+// Functional component definition for Footer
 const Footer = () => {
 return (
   <div className="footer">
