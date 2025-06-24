@@ -57,7 +57,7 @@ const SignUp = () => {
                         required // making the field required so that the use cannot coniune without filling the field in
                         className='input-box'
                     /><br/><br/>
-                    <h6>Password: </h6>
+                    <h6>Password: </h6> {/* password*/}
                     <input 
                         type="password" 
                         value={password}
