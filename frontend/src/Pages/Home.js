@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='parent'>   
       <div className='app-logo'>
-        <img src='/images/Fawey.png' alt="logo" className='logo' />
+        <img src='/images/Fawey.png' alt="logo" className='logo' /> {/*logo section */}
       </div> 
 
       <div className='app-information'>
