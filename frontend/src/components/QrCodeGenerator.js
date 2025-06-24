@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import QRCode from 'react-qr-code';
+import QRCode from 'react-qr-code'; // Library for rendering QR codes
 import * as htmlToImage from 'html-to-image';
 import './QrCodeGenerator.css';
 
