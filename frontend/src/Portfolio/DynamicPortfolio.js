@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';//react-router-dom
 import axios from 'axios';//axios
-
+//DynamicPortfolio
 const DynamicPortfolio = () => {
     const { id } = useParams();
     const [portfolio, setPortfolio] = useState('');
