@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import './FreelancePortfolio.css';
 
+// Initializing state variables to store portfolio data
 const FreelancePortfolio = () => {
     const { id } = useParams();
     const [name, setName] = useState(""); 
