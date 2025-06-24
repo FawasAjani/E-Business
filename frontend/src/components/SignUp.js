@@ -5,7 +5,7 @@ import './SignUp.css'
 
 const SignUp = () => {
     // managing the input values given
-    const [username, setUsername] = useState('');
+    const [username, setUsername] = useState('');//username
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const qrCode = "";
