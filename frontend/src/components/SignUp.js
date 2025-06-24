@@ -13,7 +13,7 @@ const SignUp = () => {
     const freelance = { name: "", branding1: "", branding2: "", aboutMe: "", skill1: "", skill2: "", skill3: "", service1: "", service2: "", service3: "", projectName1: "", projectDescription1: "", projectLink1: "", projectName2: "", projectDescription2: "", projectLink2: "", contact1: "", contact2: "" };
     const service = { title: "", slogan: "", product: "", image: "", description: "", service1: "", service2: "", service3: "", service4: "", feature1: "", feature2: "", feature3: "", testimonialQuote1: "", testimonialName1: "", testimonialQuote2: "", testimonialName2: "", contact1: "", contact2: "" };
     const dynamic = { html: "", css: "" };    
-    const navigate = useNavigate(); 
+    const navigate = useNavigate(); //navigate
 
     // handling the submission of the form 
     const handleSubmit = async (e) => {
