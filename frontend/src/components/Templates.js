@@ -47,6 +47,7 @@ const Templates = () => {
                 <div className="col-md-3">
                     <div className="card">
                         <div className="card-content">
+                              {/*Freelancer emoji added */}
                             <h3>Freelancer🧑‍💻 </h3>
                             <p>Highlight your skills, services, and past work to attract clients.</p>
                         </div>
