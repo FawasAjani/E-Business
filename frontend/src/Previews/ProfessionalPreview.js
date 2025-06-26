@@ -55,7 +55,7 @@ const ProfessionalPreview = () => {
                     <div className='image'>
                         <img src={image} alt="Product" className='product-image' />
                     </div>
-                    <hr />
+                    <hr />{/*Introducing */}
                     <h2>Introducing {product}</h2>
                     <p>{description}</p>
                      {/* Display key features */}
