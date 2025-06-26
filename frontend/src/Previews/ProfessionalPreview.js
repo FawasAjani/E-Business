@@ -58,6 +58,7 @@ const ProfessionalPreview = () => {
                     <hr />
                     <h2>Introducing {product}</h2>
                     <p>{description}</p>
+                     {/* Display key features */}
                     <h3>Key Features</h3>
                     <ul>
                         <li>{feature1}</li>
