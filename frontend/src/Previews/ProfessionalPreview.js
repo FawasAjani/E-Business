@@ -6,6 +6,7 @@ import './ProfessionalPreview.css';
 const ProfessionalPreview = () => {
           // Extract the `id` from the URL parameters
     const { id } = useParams();
+     // Get the navigation function from React Router
     const navigate = useNavigate();
 
     const [title, setTitle] = useState('');
