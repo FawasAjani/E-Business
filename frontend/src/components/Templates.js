@@ -69,6 +69,7 @@ const Templates = () => {
                 <div className="col-md-3">
                     <div className="card">
                         <div className="card-content">
+                           {/*Dynamic emoji added */}
                             <h3>Dynamic🎨</h3>
                             <p>Build your own layout from scratch - fully customizable.</p>
                         </div>
