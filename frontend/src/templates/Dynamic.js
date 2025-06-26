@@ -21,7 +21,7 @@ const Dynamic = () => {
     const look = () => {
         navigate('/dynamic/portfolio/' + id);
     }
-    
+     // Type used by QRCodeGenerator
     const[type] = useState("dynamic");
 
 
