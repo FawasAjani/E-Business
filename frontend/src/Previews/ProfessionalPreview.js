@@ -70,7 +70,7 @@ const ProfessionalPreview = () => {
                         <li>{contact2}</li>
                     </ul>
                 </div>
-            </div>
+            </div> {/* Button to return to the editing page */}
             <div className='portfolio-button'>
                 <button className='button' onClick={backToPort}>Back to portfolio</button>
             </div>
