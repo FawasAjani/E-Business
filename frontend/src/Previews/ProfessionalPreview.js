@@ -34,7 +34,7 @@ const ProfessionalPreview = () => {
                 setFeature3(data.feature3);
                 setContact1(data.contact1);
                 setContact2(data.contact2);
-            })
+            })     // Log any errors in fetching data
             .catch((error) => {
                 console.error("Error getting profile:", error);
             });
