@@ -39,7 +39,7 @@ const ProfessionalPreview = () => {
                 console.error("Error getting profile:", error);
             });
     }, [id]);
-
+  // Navigate back to the editable professional template page
     const backToPort = (e) => {
         e.preventDefault();
         navigate(`/templates/professional/${id}`);
