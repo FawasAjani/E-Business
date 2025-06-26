@@ -58,6 +58,7 @@ const Templates = () => {
                 <div className="col-md-3">
                     <div className="card">
                         <div className="card-content">
+                              {/*service emoji added */}
                             <h3>Service💼</h3>
                             <p>Promote a service you offer, with clear descriptions and benefits.</p>
                         </div>
