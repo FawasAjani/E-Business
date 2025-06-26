@@ -34,7 +34,7 @@ const ServicePreview = () => {
                 setSlogan(response.data.service.slogan);
                 setImage(response.data.service.image);
                 setDescription(response.data.service.description);
-                
+                    // Services offered
                 setService1(response.data.service.service1);
                 setService2(response.data.service.service2);
                 setService3(response.data.service.service3);
