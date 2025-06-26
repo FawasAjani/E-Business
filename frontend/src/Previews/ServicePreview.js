@@ -5,6 +5,7 @@ import './ProfessionalPreview.css';
 import { useNavigate } from 'react-router-dom';
 
 const ServicePreview = () => {
+      // Get the `id` parameter from the URL
     const { id } = useParams();
     const navigate = useNavigate(); 
     
