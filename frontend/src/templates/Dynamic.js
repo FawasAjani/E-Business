@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import grapesjs from "grapesjs";
+import grapesjs from "grapesjs";// Main GrapesJS editor
 import gjsPresetWebpage from "grapesjs-preset-webpage";
 import gjsBlocksBasic from "grapesjs-blocks-basic";  
 import axios from 'axios';

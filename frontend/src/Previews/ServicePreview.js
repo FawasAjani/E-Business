@@ -48,7 +48,7 @@ const ServicePreview = () => {
                 setTestimonialName1(response.data.service.testimonialName1);
                 setTestimonialQuote2(response.data.service.testimonialQuote2);
                 setTestimonialName2(response.data.service.testimonialName2);
-                
+                  // Contact information
                 setContact1(response.data.service.contact1);
                 setContact2(response.data.service.contact2);
             })
