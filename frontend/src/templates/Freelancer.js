@@ -103,7 +103,7 @@ const Freelancer = () => {
             alert('Failed to save profile');
         });
     };
-
+  //navigate-freelance/portfolio/preview
     const loadPreview = async (e) => {
         navigate('/freelance/portfolio/preview/' + id);
     }
