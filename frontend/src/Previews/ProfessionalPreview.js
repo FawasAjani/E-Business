@@ -8,7 +8,7 @@ const ProfessionalPreview = () => {
     const { id } = useParams();
      // Get the navigation function from React Router
     const navigate = useNavigate();
-
+     // Declare state variables for all dynamic content
     const [title, setTitle] = useState('');
     const [slogan, setSlogan] = useState('');
     const [product, setProduct] = useState('');
@@ -19,7 +19,7 @@ const ProfessionalPreview = () => {
     const [feature3, setFeature3] = useState('');
     const [contact1, setContact1] = useState('');
     const [contact2, setContact2] = useState('');
-
+ // Fetch template data from the backend when the component mounts or `id` changes
     useEffect(() => {
         axios.get(`${process.env.REACT_APP_BACKEND_URL}/templates/professional/${id}`)
             .then((response) => {
