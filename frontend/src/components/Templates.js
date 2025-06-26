@@ -36,40 +36,41 @@ const Templates = () => {
                 <div className="col-md-3">
                     <div className="card">
                         <div className="card-content">
-                            <h3>Product</h3>
+                           {/*product emoji added */}
+                            <h3>Product🛍️</h3>
                             <p>Show off a product with key features and a bold call to action.</p>
                         </div>
-                        <img src="/images/product2.png" alt="Template1" />
+                        <img src="/images/product15.png" alt="Template1" />
                         <button className="button" onClick={renderProfessionalTemplate}>Use this template</button> 
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
                         <div className="card-content">
-                            <h3>Freelancer</h3>
+                            <h3>Freelancer🧑‍💻 </h3>
                             <p>Highlight your skills, services, and past work to attract clients.</p>
                         </div>
-                        <img src="/images/freelance2.png" alt="Template1" />
+                        <img src="/images/freelancer11.png" alt="Template1" />
                         <button className="button" onClick={renderFreelancerTemplate}>Use this template</button> 
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
                         <div className="card-content">
-                            <h3>Service</h3>
+                            <h3>Service💼</h3>
                             <p>Promote a service you offer, with clear descriptions and benefits.</p>
                         </div>
-                        <img src="/images/service.png" alt="Template1" />
+                        <img src="/images/service10.png" alt="Template1" />
                         <button className="button" onClick={renderServiceTemplate}>Use this template</button> 
                     </div>
                 </div>
                 <div className="col-md-3">
                     <div className="card">
                         <div className="card-content">
-                            <h3>Dynamic</h3>
+                            <h3>Dynamic🎨</h3>
                             <p>Build your own layout from scratch - fully customizable.</p>
                         </div>
-                        <img src="/images/dynamic2.png" alt="Template1"/>
+                        <img src="/images/dynamic13.png" alt="Template1"/>
                         <button className="button" onClick={renderDynamicTemplate}>Use this template</button> 
                     </div>
                 </div>
