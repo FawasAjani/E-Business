@@ -15,11 +15,11 @@ const Freelancer = () => {
     const togglePopup = () => {
         setIsOpen(false);
     };
-
+     // Used by QR code generator
     const[type] = useState("freelance");
 
     const navigate = useNavigate();
-
+ // Form state variables for various fields
     const [name, setName] = useState("");
     const [branding1, setBranding1] = useState("");
     const [branding2, setBranding2] = useState("");
