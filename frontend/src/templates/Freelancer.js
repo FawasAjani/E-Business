@@ -7,6 +7,7 @@ import QrCodeGenerator from '../components/QrCodeGenerator';
 import imageCompression from 'browser-image-compression';
 
 const Freelancer = () => {
+        // Retrieve the user ID from the URL parameters
     const {id} = useParams();
 
     //qr code pop up 
