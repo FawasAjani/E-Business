@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './Professional.css';
 import QrCodeGenerator from '../components/QrCodeGenerator';
-import imageCompression from 'browser-image-compression';
+import imageCompression from 'browser-image-compression';//imageCompression
 
 const Professional = () => {
     const { id } = useParams();
