@@ -342,7 +342,7 @@ const Freelancer = () => {
                     </div>
                     {/* https://www.dhiwise.com/post/guide-to-creating-engaging-user-experiences-with-react-popups */}
                     {isOpen && (
-                        <div className="popup">
+                        <div className="popup">   {/* QR Code Popup */}
                             <QrCodeGenerator type={type} id={id}></QrCodeGenerator>
                             <div className='pop-but-container'>
                                 <button onClick={togglePopup} className='close-button'>Close</button>
