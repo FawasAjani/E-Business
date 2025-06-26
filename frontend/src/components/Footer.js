@@ -7,7 +7,7 @@ return (
   <div className="footer">
     <ul class="menu">
        {/* Link to the home page */}
-      <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="/">Home 🏠</a></li> {/* Home emoji added */}
     </ul>
        {/* Copyright notice */}
       <p>&copy;2025 E-Business-Card | All Rights Reserved</p>
