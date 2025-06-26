@@ -39,7 +39,7 @@ const ServicePreview = () => {
                 setService2(response.data.service.service2);
                 setService3(response.data.service.service3);
                 setService4(response.data.service.service3);
-
+                // Features of the service
                 setFeature1(response.data.service.feature1);
                 setFeature2(response.data.service.feature2);
                 setFeature3(response.data.service.feature3);
