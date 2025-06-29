@@ -28,7 +28,7 @@ const Professional = () => {
         axios.get(`${process.env.REACT_APP_BACKEND_URL}/templates/professional/${id}`)
             .then((response) => {
                 const data = response.data.professional;
-                setTitle(data.title || "Enter business name");
+                setTitle(data.title || "Enter business name");// business name
                 setSlogan(data.slogan || "Enter slogan");//slogan
                 setProduct(data.product || "Enter product name");//product name
                 setDescription(data.description || "Enter product description");
