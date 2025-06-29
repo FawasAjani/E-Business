@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import axios from 'axios';//import axios
 import './Professional.css';//professional
 import QrCodeGenerator from '../components/QrCodeGenerator';//QrcodeGenerator
 import imageCompression from 'browser-image-compression';//imageCompression
