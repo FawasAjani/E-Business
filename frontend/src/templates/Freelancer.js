@@ -51,7 +51,7 @@ const Freelancer = () => {
                 setSkill1(response.data.freelance.skill1 || "Enter skill 1");//Skill1
                 setSkill2(response.data.freelance.skill2 || "Enter skill 2");//Skill2
                 setSkill3(response.data.freelance.skill3 || "Enter skill 3");//Skill3
-                setService1(response.data.freelance.service1 || "Enter service 1");
+                setService1(response.data.freelance.service1 || "Enter service 1");//Service1
                 setService2(response.data.freelance.service2 || "Enter service 2");
                 setService3(response.data.freelance.service3 || "Enter service 3");
                 setProjectName1(response.data.freelance.projectName1 || "Enter project 1 name");
