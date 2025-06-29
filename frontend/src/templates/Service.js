@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';// Import Axios for making HTTP
 import './Service.css';
 import QrCodeGenerator from '../components/QrCodeGenerator';// Import a custom QR code generator component
-import imageCompression from 'browser-image-compression';
+import imageCompression from 'browser-image-compression';// Import an image compression library to optimize uploaded
 
 const Service = () => {
     const {id} = useParams();
