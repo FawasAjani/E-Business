@@ -35,7 +35,7 @@ const Professional = () => {
                 setFeature1(data.feature1 || "Enter feature 1");//Enter feature 1
                 setFeature2(data.feature2 || "Enter feature 2");//Enter feature 2
                 setFeature3(data.feature3 || "Enter feature 3");//Enter feature 3
-                setContact1(data.contact1 || "Email: ");
+                setContact1(data.contact1 || "Email: ");//Email
                 setContact2(data.contact2 || "Phone: ");
                 setImage(data.image || "");
             })
