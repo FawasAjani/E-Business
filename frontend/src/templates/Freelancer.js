@@ -50,7 +50,7 @@ const Freelancer = () => {
                 setAboutMe(response.data.freelance.aboutMe || "Enter your bio");//bio
                 setSkill1(response.data.freelance.skill1 || "Enter skill 1");//Skill1
                 setSkill2(response.data.freelance.skill2 || "Enter skill 2");//Skill2
-                setSkill3(response.data.freelance.skill3 || "Enter skill 3");
+                setSkill3(response.data.freelance.skill3 || "Enter skill 3");//Skill3
                 setService1(response.data.freelance.service1 || "Enter service 1");
                 setService2(response.data.freelance.service2 || "Enter service 2");
                 setService3(response.data.freelance.service3 || "Enter service 3");
