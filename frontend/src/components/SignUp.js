@@ -34,7 +34,7 @@ const SignUp = () => {
     return (
         <div className='container'>
             <div className='content'>
-                <h2 className='container'>Sign Up</h2>
+                <h2 className='container'>Sign Up📝</h2> {/* signup emoji added */}
                 <hr />
                 {/* when the form is submitted the handlesubmit function is triggered */}
                 <form onSubmit={handleSubmit}>
