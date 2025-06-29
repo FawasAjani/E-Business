@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';//import useNavigate
 import axios from 'axios';//import axios
 import './Professional.css';//professional
 import QrCodeGenerator from '../components/QrCodeGenerator';//QrcodeGenerator
