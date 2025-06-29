@@ -21,7 +21,7 @@ const Professional = () => {
     const [contact1, setContact1] = useState("");
     const [contact2, setContact2] = useState("");
     const [type] = useState("professional");
-
+  //navigate
     const navigate = useNavigate();
 
     useEffect(() => {
