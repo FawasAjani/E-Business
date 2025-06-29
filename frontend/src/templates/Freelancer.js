@@ -58,7 +58,7 @@ const Freelancer = () => {
                 setProjectDescription1(response.data.freelance.projectDescription1 || "Enter project 1 description");//description
                 setProjectLink1(response.data.freelance.projectLink1 || "Enter project 1 link");//LINK 1
                 setProjectName2(response.data.freelance.projectName2 || "Enter project 2 name");//PROJECT 2
-                setProjectDescription2(response.data.freelance.projectDescription2 || "Enter project 2 description");
+                setProjectDescription2(response.data.freelance.projectDescription2 || "Enter project 2 description");//description2
                 setProjectLink2(response.data.freelance.projectLink2 || "Enter project 2 link");
                 setContact1(response.data.freelance.contact1 || "Enter email");
                 setContact2(response.data.freelance.contact2 || "Enter phone");
