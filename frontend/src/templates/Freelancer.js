@@ -47,7 +47,7 @@ const Freelancer = () => {
                 setName(response.data.freelance.name || "Enter your name");//Name
                 setBranding1(response.data.freelance.branding1 || "Enter your primary tag");//Primary tag
                 setBranding2(response.data.freelance.branding2 || "Enter your secondary tag");//secondary tag
-                setAboutMe(response.data.freelance.aboutMe || "Enter your bio");
+                setAboutMe(response.data.freelance.aboutMe || "Enter your bio");//bio
                 setSkill1(response.data.freelance.skill1 || "Enter skill 1");
                 setSkill2(response.data.freelance.skill2 || "Enter skill 2");
                 setSkill3(response.data.freelance.skill3 || "Enter skill 3");
