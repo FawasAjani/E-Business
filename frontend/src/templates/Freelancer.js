@@ -60,7 +60,7 @@ const Freelancer = () => {
                 setProjectName2(response.data.freelance.projectName2 || "Enter project 2 name");//PROJECT 2
                 setProjectDescription2(response.data.freelance.projectDescription2 || "Enter project 2 description");//description2
                 setProjectLink2(response.data.freelance.projectLink2 || "Enter project 2 link");// project2 link
-                setContact1(response.data.freelance.contact1 || "Enter email");
+                setContact1(response.data.freelance.contact1 || "Enter email");//email
                 setContact2(response.data.freelance.contact2 || "Enter phone");
             })
             .catch((error) => {
