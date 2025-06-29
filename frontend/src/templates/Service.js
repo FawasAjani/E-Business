@@ -3,7 +3,7 @@ import { useState, useEffect} from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';// Import Axios for making HTTP
 import './Service.css';
-import QrCodeGenerator from '../components/QrCodeGenerator';
+import QrCodeGenerator from '../components/QrCodeGenerator';// Import a custom QR code generator component
 import imageCompression from 'browser-image-compression';
 
 const Service = () => {
