@@ -49,7 +49,7 @@ const Templates = () => {
                         <div className="card-content">
                               {/*Freelancer emoji added */}
                             <h3>Freelancer🧑‍💻 </h3>
-                            <p>Highlight your skills, services, and past work to attract clients.</p>
+                            <p>Showcase your skills, services, and portfolio to attract potential clients.</p>
                         </div>
                         <img src="/images/freelancer11.png" alt="Template1" />
                         <button className="button" onClick={renderFreelancerTemplate}>Use this template</button> 
