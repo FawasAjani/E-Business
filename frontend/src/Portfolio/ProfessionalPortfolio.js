@@ -19,7 +19,7 @@ const ProfessionalPortfolio = () => {
       // Fetch portfolio data on component mount or when 'id' changes
     useEffect(() => {
         axios.get(`${process.env.REACT_APP_BACKEND_URL}/templates/professional/${id}`)
-            .then((response) => {
+            .then((response) => { // Populate state with received data
                 setTitle(response.data.profile.title);
                 setSlogan(response.data.profile.slogan);
                 setProduct(response.data.profile.product);
