@@ -36,7 +36,7 @@ const Login = () => {
     return (
         <div className='container'>
             <div className='content'>
-                <h2 className='container'>Log in</h2>
+                <h2 className='container'>Log in🔐</h2>{/*login emoji */}
                 <hr />
                 {/* when the form is submitted the handlesubmit function is triggered */}
                 <form onSubmit={handleSubmit}>
