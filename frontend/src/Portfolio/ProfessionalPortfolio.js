@@ -16,7 +16,7 @@ const ProfessionalPortfolio = () => {
     const [contact1, setContact1] = useState('');
     const [contact2, setContact2] = useState('');  
     
-    // getting the portfolio data when the page loads 
+      // Fetch portfolio data on component mount or when 'id' changes
     useEffect(() => {
         axios.get(`${process.env.REACT_APP_BACKEND_URL}/templates/professional/${id}`)
             .then((response) => {
