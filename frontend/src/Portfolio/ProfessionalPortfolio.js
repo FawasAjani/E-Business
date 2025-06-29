@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import './ProfessionalPortfolio.css';
-
+// State variables for portfolio fields
 const ProfessionalPortfolio = () => {
     const { id } = useParams();
     const [title, setTitle] = useState('');
