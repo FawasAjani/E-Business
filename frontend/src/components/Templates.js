@@ -60,7 +60,7 @@ const Templates = () => {
                         <div className="card-content">
                               {/*service emoji added */}
                             <h3>Service💼</h3>
-                            <p>Promote a service you offer, with clear descriptions and benefits.</p>
+                            <p>Highlight the services you provide with clear details and the value they bring to your clients.</p>
                         </div>
                         <img src="/images/service10.png" alt="Template1" />
                         <button className="button" onClick={renderServiceTemplate}>Use this template</button> 
@@ -71,7 +71,7 @@ const Templates = () => {
                         <div className="card-content">
                            {/*Dynamic emoji added */}
                             <h3>Dynamic🎨</h3>
-                            <p>Build your own layout from scratch - fully customizable.</p>
+                            <p>Create a fully customizable layout tailored to your unique needs and style.</p>
                         </div>
                         <img src="/images/dynamic13.png" alt="Template1"/>
                         <button className="button" onClick={renderDynamicTemplate}>Use this template</button> 
