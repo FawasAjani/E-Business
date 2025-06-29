@@ -30,7 +30,7 @@ const Professional = () => {
                 const data = response.data.professional;
                 setTitle(data.title || "Enter business name");
                 setSlogan(data.slogan || "Enter slogan");
-                setProduct(data.product || "Enter product name");
+                setProduct(data.product || "Enter product name");//product name
                 setDescription(data.description || "Enter product description");
                 setFeature1(data.feature1 || "Enter feature 1");//Enter feature 1
                 setFeature2(data.feature2 || "Enter feature 2");//Enter feature 2
