@@ -32,7 +32,7 @@ const Professional = () => {
                 setSlogan(data.slogan || "Enter slogan");
                 setProduct(data.product || "Enter product name");
                 setDescription(data.description || "Enter product description");
-                setFeature1(data.feature1 || "Enter feature 1");
+                setFeature1(data.feature1 || "Enter feature 1");//Enter feature 1
                 setFeature2(data.feature2 || "Enter feature 2");
                 setFeature3(data.feature3 || "Enter feature 3");
                 setContact1(data.contact1 || "Email: ");
