@@ -12,7 +12,7 @@ const ServicePreview = () => {
     const [title, setTitle] = useState("");//title
     const [slogan, setSlogan] = useState("");//slogan
     const [image, setImage] = useState("/images/Fawey.png"); // Default fallback image
-    const [description, setDescription] = useState("");
+    const [description, setDescription] = useState("");//description
     const [service1, setService1] = useState("");
     const [service2, setService2] = useState("");
     const [service3, setService3] = useState("");
