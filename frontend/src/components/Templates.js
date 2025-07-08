@@ -1,3 +1,4 @@
+/*Template */
 import React from 'react';
 import './Templates.css';
 import { useNavigate, useParams} from 'react-router-dom';
