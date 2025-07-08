@@ -1,3 +1,4 @@
+/*Home page */
 import React from 'react';
 import './Home.css';  // Importing CSS file for styling the Home component
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaLinkedin } from 'react-icons/fa'; //Importing CSS file for styling the Home component
