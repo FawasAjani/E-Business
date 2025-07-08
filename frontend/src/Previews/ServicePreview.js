@@ -10,7 +10,7 @@ const ServicePreview = () => {
     const navigate = useNavigate(); 
     
     const [title, setTitle] = useState("");
-    const [slogan, setSlogan] = useState("");
+    const [slogan, setSlogan] = useState("");//slogan
     const [image, setImage] = useState("/images/Fawey.png"); // Default fallback image
     const [description, setDescription] = useState("");
     const [service1, setService1] = useState("");
