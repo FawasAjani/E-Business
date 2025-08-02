@@ -1,50 +1,72 @@
-# Clone the repository
-git clone https://github.com/your-username/e-business-card.git
-cd e-business-card
-
-# Install frontend dependencies
-cd frontend
-npm install
-
-# Open a new terminal tab/window for backend
-cd ../backend
-npm install
-
-
-
 📇 E-Business Card
-A modern, responsive web application to create, customize, and share digital business cards with QR code integration. Built using full-stack technologies (React, Node, MongoDB), it enables users to display professional details and portfolios with style.
+A modern, responsive web application to create, customize, and share digital business cards with QR code integration. Built using full-stack technologies (React, Node.js, MongoDB), it enables users to showcase professional details and portfolios in a clean, interactive format.
 
 🚀 Features
 Create and edit personalized business cards
 
-Upload profile images and portfolio items
+Upload profile images and portfolio samples
 
 Real-time preview and template switching
 
-Generate and download QR codes linking to digital cards
+Generate and download QR codes for sharing
 
-Responsive design for all devices
+Fully responsive design across all devices
 
 🛠️ Technologies Used
-Frontend:
-
+Frontend
 React.js
 
 CSS Modules
 
-Backend:
+Backend
+Node.js
 
-Node.js & Express
+Express.js
 
-MongoDB (Mongoose ODM)
+MongoDB (with Mongoose ODM)
 
-.env for secure credentials
+.env for secure credential storage
 
-Other Tools:
-
-QR Code: qrcode.react
+Other Tools
+QR Code generation: qrcode.react
 
 Hosting: Vercel (Frontend), Render (Backend)
 
-Version Control: Git + GitHub
+Version Control: Git & GitHub
+
+ Getting Started
+Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/e-business-card.git
+cd e-business-card
+ Install Dependencies
+Frontend Setup
+bash
+Copy
+Edit
+cd frontend
+npm install
+Backend Setup (in a new terminal)
+bash
+Copy
+Edit
+cd backend
+npm install
+ Run the Application
+Start Frontend
+bash
+Copy
+Edit
+cd frontend
+npm start
+Runs on: http://localhost:3000
+
+Start Backend (in a separate terminal)
+bash
+Copy
+Edit
+cd backend
+npx nodemon server.js
+Runs on: http://localhost:5000
