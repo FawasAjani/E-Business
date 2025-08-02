@@ -9,14 +9,14 @@ const Home = () => {
       <div className='app-logo'>
         <img src='/images/Fawey.png' alt="logo" className='logo' /> {/*logo section */}
       </div> 
-
+        
       <div className='app-information'>
         <div className='app-welcome-text'>
-          <h1>Welcome</h1>
+      
         </div>
         <br />
         <div className='app-welcome-text'>
-          <p>
+          <p>{/*insight on the app*/}
             E-Business Cards make networking effortless. Create and share a digital portfolio that highlights your products, services, and contact info—all connected to a unique QR code. Forget paper cards—stand out and stay connected anytime, anywhere with a modern, professional touch.
           </p>
         </div>
