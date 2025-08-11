@@ -34,39 +34,38 @@ Hosting: Vercel (Frontend), Render (Backend)
 
 Version Control: Git & GitHub
 
- Getting Started
-Clone the Repository
-bash
+1. Clone the Repository
+sh
 Copy
 Edit
 git clone https://github.com/your-username/e-business-card.git
 cd e-business-card
- Install Dependencies
+2. Install Dependencies
 Frontend Setup
-bash
+sh
 Copy
 Edit
 cd frontend
 npm install
 Backend Setup (in a new terminal)
-bash
+sh
 Copy
 Edit
 cd backend
 npm install
- Run the Application
+3. Run the Application
 Start Frontend
-bash
+sh
 Copy
 Edit
 cd frontend
 npm start
-Runs on: http://localhost:3000
+Runs at: http://localhost:3000
 
 Start Backend (in a separate terminal)
-bash
+sh
 Copy
 Edit
 cd backend
 npx nodemon server.js
-Runs on: http://localhost:5000
+Runs at: http://localhost:5000
