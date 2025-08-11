@@ -34,39 +34,59 @@ Hosting: Vercel (Frontend), Render (Backend)
 
 Version Control: Git & GitHub
 
-🚀 Getting Started
-1. Clone the Repository
+## 🚀 Getting Started
 
-Copy
-Edit
+Follow these steps to set up and run the project locally.
+
+---
+
+### 🔁 1. Clone the Repository
+
+```
 git clone https://github.com/your-username/e-business-card.git
 cd e-business-card
-2. Install Dependencies
-Frontend Setup
+```
 
-Copy
-Edit
+---
+
+### 📦 2. Install Dependencies
+
+#### Frontend Setup
+
+```
 cd frontend
 npm install
-Backend Setup (in a new terminal)
+```
 
-Copy
-Edit
+#### Backend Setup (in a new terminal)
+
+```
 cd backend
 npm install
-3. Run the Application
-Start Frontend
+```
 
-Copy
-Edit
+---
+
+### ▶️ 3. Run the Application
+
+#### Start Frontend
+
+```
 cd frontend
 npm start
-Runs at: http://localhost:3000
+```
 
-Start Backend (in a separate terminal)
+> The frontend will run at: [http://localhost:3000](http://localhost:3000)
 
-Copy
-Edit
+---
+
+#### Start Backend (in a separate terminal)
+
+```
 cd backend
 npx nodemon server.js
-Runs at: http://localhost:5000
+```
+
+> The backend will run at: [http://localhost:5000](http://localhost:5000)
+
+---
