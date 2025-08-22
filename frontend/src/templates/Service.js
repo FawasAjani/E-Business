@@ -307,7 +307,7 @@ const Service = () => {
                         </textarea>
                     </div>
                     <div className='form'>
-                        <h4>Enter your contacts</h4>//
+                        <h4>Enter your contacts</h4>
                         <textarea 
                             rows="2" 
                             type="text" 
